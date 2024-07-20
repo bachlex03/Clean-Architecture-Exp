@@ -10,3 +10,9 @@
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/obj/Debug/net8.0/refint/Clean.Architecture.Infrastructure.dll
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/obj/Debug/net8.0/Clean.Architecture.Infrastructure.pdb
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/obj/Debug/net8.0/ref/Clean.Architecture.Infrastructure.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/bin/Debug/net8.0/Clean.Architecture.Core.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/bin/Debug/net8.0/Clean.Architecture.UseCases.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/bin/Debug/net8.0/Clean.Architecture.UseCases.pdb
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/bin/Debug/net8.0/Clean.Architecture.Core.pdb
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/obj/Debug/net8.0/Clean.Architecture.Infrastructure.csproj.AssemblyReference.cache
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Infrastructure/obj/Debug/net8.0/Clean.Ar.188B85B1.Up2Date

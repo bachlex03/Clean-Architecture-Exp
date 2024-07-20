@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -12,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Architecture.Infrastructure", "src\Clean.Architecture.Infrastructure\Clean.Architecture.Infrastructure.csproj", "{6FC9ADA7-D910-47E7-9436-96CD57744BE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Architecture.Core", "src\Clean.Architecture.Core\Clean.Architecture.Core.csproj", "{5EE6188F-1C59-406E-8270-58D6856509A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{77F5CBC9-A20A-4357-B73F-63E3DA9A02DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +39,10 @@ Global
 		{5EE6188F-1C59-406E-8270-58D6856509A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE6188F-1C59-406E-8270-58D6856509A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE6188F-1C59-406E-8270-58D6856509A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F5CBC9-A20A-4357-B73F-63E3DA9A02DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F5CBC9-A20A-4357-B73F-63E3DA9A02DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F5CBC9-A20A-4357-B73F-63E3DA9A02DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F5CBC9-A20A-4357-B73F-63E3DA9A02DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CC211505-B007-479F-BBF8-26D2EE1BADC3} = {BEB08849-88AF-4CF9-98E4-06AF51DD0921}

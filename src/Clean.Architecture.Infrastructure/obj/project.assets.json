@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Clean.Architecture.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Clean.Architecture.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Architecture.Core.dll": {}
+        }
+      },
+      "Clean.Architecture.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Clean.Architecture.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean.Architecture.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Architecture.UseCases.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Clean.Architecture.Core/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Architecture.Core/Clean.Architecture.Core.csproj",
+      "msbuildProject": "../Clean.Architecture.Core/Clean.Architecture.Core.csproj"
+    },
+    "Clean.Architecture.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Architecture.UseCases/Clean.Architecture.UseCases.csproj",
+      "msbuildProject": "../Clean.Architecture.UseCases/Clean.Architecture.UseCases.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Clean.Architecture.Core >= 1.0.0",
+      "Clean.Architecture.UseCases >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/bale/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Core/Clean.Architecture.Core.csproj": {
+              "projectPath": "/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Core/Clean.Architecture.Core.csproj"
+            },
+            "/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.UseCases/Clean.Architecture.UseCases.csproj": {
+              "projectPath": "/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.UseCases/Clean.Architecture.UseCases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

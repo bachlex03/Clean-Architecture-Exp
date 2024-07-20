@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Clean.Architecture.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Clean.Architecture.Core": "1.0.0",
+          "Clean.Architecture.UseCases": "1.0.0"
+        },
         "runtime": {
           "Clean.Architecture.Infrastructure.dll": {}
+        }
+      },
+      "Clean.Architecture.Core/1.0.0": {
+        "runtime": {
+          "Clean.Architecture.Core.dll": {}
+        }
+      },
+      "Clean.Architecture.UseCases/1.0.0": {
+        "dependencies": {
+          "Clean.Architecture.Core": "1.0.0"
+        },
+        "runtime": {
+          "Clean.Architecture.UseCases.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Clean.Architecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean.Architecture.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean.Architecture.UseCases/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
