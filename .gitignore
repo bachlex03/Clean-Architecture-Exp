@@ -1,2 +1,4 @@
-/**/bin/
-/**/obj/
+/src/Clean.Architecture.Core/bin/
+/src/Clean.Architecture.Core/obj/
+bin/
+obj/
