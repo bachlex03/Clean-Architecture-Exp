@@ -38,3 +38,7 @@
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/Clean.Architecture.UseCases.pdb
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/Clean.Architecture.Infrastructure.pdb
 /Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/Clean.Architecture.Core.pdb
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/MediatR.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/Mapster.dll
+/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.Web/bin/Debug/net8.0/Mapster.Core.dll

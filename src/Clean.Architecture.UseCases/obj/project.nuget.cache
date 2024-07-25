@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ossJ1NUqE2w=",
+  "dgSpecHash": "7FZNTW4fZcI=",
   "success": true,
   "projectFilePath": "/Users/bale/Documents/Workspace/C#_.NET/CleanArchitecture-exp/src/Clean.Architecture.UseCases/Clean.Architecture.UseCases.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/bale/.nuget/packages/mediatr/12.4.0/mediatr.12.4.0.nupkg.sha512",
+    "/Users/bale/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/bale/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
